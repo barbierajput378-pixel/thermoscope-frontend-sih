@@ -16,6 +16,7 @@ export interface Hotspot {
   priority: Priority;
   nearest_facility: string | null;
   distance_m: number | null;
+  acq_date: string | null;
   is_demo: boolean;
   created_at: string;
 }
